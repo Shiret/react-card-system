@@ -1,0 +1,324 @@
+.layui-container {
+	padding: 0;
+}
+
+input,
+button,
+select,
+textarea {
+	-webkit-appearance: none;
+}
+
+.nav {
+	padding: 15px;
+	background: #000;
+	color: #fff;
+}
+
+.nav .title {
+	white-space: nowrap;
+}
+
+.nav .title h2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.login-box {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.login-box .login-bd .layui-tab {
+	margin: 0;
+	padding: 20px;
+	border-left: 0.5px solid #d6d6d6;
+	border-right: 0.5px solid #d6d6d6;
+	border-bottom: 0.5px solid #d6d6d6;
+}
+
+.login-container {
+	padding: 0 15px;
+	margin-top: 50px;
+}
+
+.login-box .layui-tab-title li {
+	color: #5c8dd6;
+	width: 33.333%;
+	box-sizing: border-box;
+}
+
+.login-box .layui-tab-title li.layui-this {
+	color: #000;
+}
+
+.login-hd {
+	background: #000000;
+	padding: 20px;
+	border-radius: 8px 8px 0 0;
+	color: #fff;
+}
+
+.items {
+	margin: 15px;
+}
+
+.items .hd {
+	background: #009688;
+	color: #fff;
+	padding: 12px 10px;
+	border-radius: 3px 3px 0 0;
+	text-align: center;
+}
+
+.items .bd {
+	border-left: 0.5px solid #d6d6d6;
+	border-right: 0.5px solid #d6d6d6;
+	border-bottom: 0.5px solid #d6d6d6;
+	background: #fff;
+}
+
+.items .layui-form-item {
+	border-bottom: 1px solid #d6d6d6;
+	margin: 0;
+}
+
+.items .layui-form-item:last-child {
+	border: none;
+}
+
+.items .layui-form-item .layui-input-block {
+	min-height: 38px;
+	line-height: 38px;
+	margin-left: 90px;
+	padding-right: 2px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.items label {
+	width: 90px !important;
+	border: 0 !important;
+	background: none !important;
+	text-align: right !important;
+}
+
+.items button {
+	padding: 3px 6px;
+	border-radius: 2px;
+}
+
+.items input[type=text],
+.items input[type=password],
+.items select {
+	height: 32px;
+	margin-top: 3px;
+}
+
+.items .chooseRadio li {
+	text-align: left;
+}
+
+.items .chooseRadio li>* {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-user-select: none;
+}
+
+.items .chooseRadio input[type=radio] {
+	-webkit-appearance: radio;
+}
+
+.items .chooseRadio label {
+	width: auto !important;
+	margin-left: 10px;
+}
+
+.items .chooseRadio li.this label {
+	color: #009688;
+}
+
+.items .chooseRadio .layui-icon-circle-dot {
+	color: #009688;
+}
+
+.items .chooseRadio span {
+	display: inline;
+	border: 1px solid #009688;
+	color: #009688;
+	padding: 3px 6px;
+	border-radius: 2px;
+	margin-left: 10px;
+}
+
+.layui-tab-card.record-container>.layui-tab-title {
+	background: #009688;
+}
+
+.layui-tab-card.record-container>.layui-tab-title li {
+	color: #fff;
+}
+
+.layui-tab-card.record-container>.layui-tab-title li.layui-this {
+	color: #000;
+}
+
+.record-container .layui-table-view {
+	overflow-x: scroll;
+}
+
+.record-container .layui-table-view .layui-table {
+	min-width: 100%;
+}
+
+.record-container .layui-table-view .layui-table-cell {
+	text-align: center;
+}
+
+.record-container .layui-tab-content {
+	background: #fff;
+}
+
+.control .layui-form-pane .layui-input-inline {
+	margin-left: 0;
+}
+
+.pageView {
+	text-align: right;
+}
+
+.pageView>* {
+	user-select: none;
+}
+
+.pageView .curr {
+	background-color: #009688;
+	color: #fff;
+	border-color: #009688;
+}
+
+@media screen and (max-width: 450px) {
+	.layui-form-item .layui-input-inline {
+		left: 0;
+	}
+}
+
+.control select {
+	display: block;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 30px;
+	height: 32px;
+	line-height: 1.3;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #fff;
+	border-radius: 2px;
+}
+
+.search .layui-inline {
+	margin-right: 5px;
+}
+
+.notice {
+	margin: 20px 15px 0;
+}
+
+.notice .title {
+	color: #333;
+}
+
+.notice .content {
+	color: #585858;
+}
+
+.notice .layui-card-header {
+	background: #009688;
+	color: #fff;
+}
+
+.quit {
+	padding: 6px 10px;
+	border-radius: 3px;
+	-moz-user-select: none;
+	user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	cursor: pointer;
+}
+
+.quit:hover {
+	background: #009688;
+}
+
+.kami-layer-shade {
+	z-index: 19891034;
+	background-color: rgb(0, 0, 0);
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	_position: absolute;
+	pointer-events: auto;
+}
+
+.layui-layer {
+	-webkit-overflow-scrolling: touch;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	-webkit-background-clip: content;
+	border-radius: 2px;
+	box-shadow: 1px 1px 50px rgba(0, 0, 0, .3);
+	width: 80%;
+	max-width: 350px;
+	transform: translate(-50%, -50%);
+	z-index: 19991039;
+}
+
+.layui-layer .layui-layer-title {
+	padding: 0 80px 0 20px;
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+	color: #333;
+	overflow: hidden;
+	border-radius: 2px 2px 0 0;
+	border: none;
+	background-color: #F8F8F8;
+	text-align: left;
+}
+
+.layui-layer .layui-layer-content {
+	padding: 20px;
+	text-align: left;
+	min-height: 134px;
+}
+
+.layui-layer-setwin {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	font-size: 0;
+	line-height: initial;
+}
+
+.layui-layer-setwin .layui-layer-close1 {
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+	font-size: 12px;
+	_overflow: hidden;
+	background: url(../images/icon.png) no-repeat;
+	background-position: 1px -40px;
+}
