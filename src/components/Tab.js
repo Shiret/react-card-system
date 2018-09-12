@@ -6,7 +6,7 @@ class Tab extends Component {
 		super(props);
 		this.state = {
 			tabIndex: 0,
-			carid: ''
+			carid: 'D14EB5C3BA33ACD2417D7C5742C99649'
 		};
 	}
 
@@ -52,7 +52,7 @@ class Tab extends Component {
 								    </div>
 								</div>
 			 				</form>
-			 				<button className="layui-btn layui-btn-fluid" onClick={this.login}>卡密登入空间人气访问</button>
+			 				<button className="layui-btn layui-btn-fluid" onClick={this.login}>登录</button>
 			 			</div>
 		} else if(tabIndex === 1) {
 			content = <div className="layui-tab-item layui-show">内容2</div>
